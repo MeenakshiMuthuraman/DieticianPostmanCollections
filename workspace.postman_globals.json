@@ -1,0 +1,81 @@
+{
+	"id": "ecaf1ac3-1637-4b31-82a1-fa416574f0da",
+	"values": [
+		{
+			"key": "BaseURL",
+			"value": "https://dietician-july-api-hackathon-80f2590665cc.herokuapp.com/dietician",
+			"enabled": true
+		},
+		{
+			"key": "login-Endpoint",
+			"value": "/login",
+			"enabled": true
+		},
+		{
+			"key": "Dietician-Endpoint",
+			"value": "/dietician",
+			"enabled": true
+		},
+		{
+			"key": "bearerToken-Admin",
+			"value": "",
+			"type": "default",
+			"enabled": true
+		},
+		{
+			"key": "bearerToken_Dietician",
+			"value": "",
+			"type": "default",
+			"enabled": true
+		},
+		{
+			"key": "Patient-Endpoint",
+			"value": "/patient",
+			"enabled": true
+		},
+		{
+			"key": "Reports-Endpoint",
+			"value": "",
+			"type": "default",
+			"enabled": true
+		},
+		{
+			"key": "Logout-Endpoint",
+			"value": "/logoutdietician",
+			"type": "default",
+			"enabled": true
+		},
+		{
+			"key": "patientId",
+			"value": "",
+			"type": "any",
+			"enabled": true
+		},
+		{
+			"key": "Morbidity-Endpoint",
+			"value": "/morbidity",
+			"type": "default",
+			"enabled": true
+		},
+		{
+			"key": "token",
+			"value": "",
+			"type": "any",
+			"enabled": true
+		},
+		{
+			"key": "AddNewReportsEndPoint",
+			"value": "patient/{patientId}",
+			"enabled": true
+		},
+		{
+			"key": "AddNewReports",
+			"value": "/newReports",
+			"enabled": true
+		}
+	],
+	"name": "Globals",
+	"_postman_variable_scope": "globals",
+	"_postman_exported_at": "2024-08-08T05:47:30.021Z",
+	"_postman_exported_using": "Postman/11.7.0-240730-0646"
+}
